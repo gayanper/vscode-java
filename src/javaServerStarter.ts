@@ -131,7 +131,7 @@ function prepareParams(requirements: RequirementsData, workspacePath, context: E
 		'-DCompilationUnit.DOM_BASED_OPERATIONS=true',
 		// Javac based completion is useless for now
 		// '-DCompilationUnit.codeComplete.DOM_BASED_OPERATIONS=true',
-		'-DAbstractImageBuilder.compiler=org.eclipse.jdt.internal.javac.JavacCompiler'
+		'-DAbstractImageBuilder.compilerFactory=org.eclipse.jdt.internal.javac.JavacCompilerFactory'
 		);
 	}
 
